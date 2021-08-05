@@ -1,3 +1,6 @@
+# ipython Notebooks
+.ipynb_checkpoints
+
 # Environments
 .env
 .venv
