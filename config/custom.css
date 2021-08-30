@@ -1,3 +1,9 @@
+@import url(//fonts.googleapis.com/css?family=Inter);
+
+body {
+    font-family: "Inter", sans-serif !important;
+}
+
 #header-container {display:none;}
 #notebook {
     padding: 0px;
@@ -7,4 +13,11 @@ div.container {
     padding: 0px 10px;
     width: 100%;
     max-width: 980px;
+}
+
+h5 {
+    font-family: "Inter" !important;
+    font-weight: bold;
+    color: #076ee7;
+    margin: 0 !important;
 }
