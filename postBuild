@@ -1,1 +1,2 @@
+mkdir -P ~/.jupyter/custom
 cp ./config/custom.css ~/.jupyter/custom/custom.css
