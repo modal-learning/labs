@@ -2,3 +2,6 @@ mkdir -p ~/.jupyter/custom
 mkdir -p ~/custom
 cp ./config/custom.css ~/.jupyter/custom/custom.css
 cp ./config/custom.css ~/custom/custom.css
+
+mkdir -p ~/.ipython/profile_default
+cp ./config/ipython_config.py ~/.ipython/profile_default/ipython_config.py
