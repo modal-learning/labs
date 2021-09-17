@@ -3,5 +3,7 @@ c.InteractiveShellApp.extensions = [
 ]
 
 c.InteractiveShellApp.exec_lines = [
-    '%sql sqlite:///jobs.db '
+    '%sql sqlite:///jobs.db ',
+    '%config SqlMagic.autolimit = 50'
+    '%config SqlMagic.displaycon = True'
 ]
